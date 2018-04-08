@@ -6,3 +6,8 @@ jdk:
 
 before_install:
   - cd java
+
+# whitelist
+branches:
+  only:
+    - test
